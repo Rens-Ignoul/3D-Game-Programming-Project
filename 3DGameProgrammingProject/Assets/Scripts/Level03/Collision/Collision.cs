@@ -12,7 +12,7 @@ public class Collision : MonoBehaviour
         {
             MainPlayerObject.transform.position = new Vector3(0, 6, -40);
         }
-        if (other.gameObject.tag=="ResetWall")
+        if (other.gameObject.tag=="ResetWall" || other.gameObject.tag=="Finish")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
