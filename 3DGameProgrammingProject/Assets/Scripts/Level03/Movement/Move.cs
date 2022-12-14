@@ -24,10 +24,12 @@ public class Move : MonoBehaviour
     Vector3 moveDirection;
     Rigidbody rigidbody;
 
+    public Animator animator;
     private void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
         rigidbody.freezeRotation = true;
+
     }
     private void Update()
     {
@@ -67,6 +69,7 @@ public class Move : MonoBehaviour
         if (grounded)
         {
             rigidbody.AddForce(moveDirection * MovementSpeed * 10f, ForceMode.Force);
+            animator.SetBool("IsRunning", true);
         }
         else if (!grounded)
         {
