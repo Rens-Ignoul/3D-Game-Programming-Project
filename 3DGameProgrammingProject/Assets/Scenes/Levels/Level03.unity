@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 643653867}
   - component: {fileID: 643653866}
   - component: {fileID: 643653870}
+  - component: {fileID: 643653871}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -345,7 +346,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643653865}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -431,6 +432,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &643653871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643653865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe1ee47c2cc0d24b92bacbe5daeefbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reducedSpeed: 3.5
 --- !u!1 &755201668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,6 +1460,7 @@ GameObject:
   - component: {fileID: 1440403189}
   - component: {fileID: 1440403188}
   - component: {fileID: 1440403187}
+  - component: {fileID: 1440403191}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1524,13 +1539,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440403186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.06, y: 10.99, z: -21.35}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 18.06, y: 10.99, z: -17.18}
+  m_LocalScale: {x: 1, y: 1, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1440403191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440403186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe1ee47c2cc0d24b92bacbe5daeefbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reducedSpeed: 2.5
 --- !u!1 &1504426272
 GameObject:
   m_ObjectHideFlags: 0

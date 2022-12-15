@@ -4,17 +4,25 @@ using UnityEngine;
 
 public class SmokeSlowDown : MonoBehaviour
 {
-    public Move PlayerMove;
+    public float reducedSpeed = 1.5f;
+    private float originalSpeed;
 
-    // Start is called before the first frame update
+    private GameObject player;
+
     void Start()
     {
-        
+        player = GameObject.FindWithTag("Player");
+        originalSpeed = player.GetComponent<Move>().MovementSpeed;
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerStay(Collider other)
     {
-        
+        player.GetComponent<Move>().MovementSpeed = reducedSpeed;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        player.GetComponent<Move>().MovementSpeed = originalSpeed;
     }
 }
