@@ -48,8 +48,5 @@ public class AnimationManager : MonoBehaviour
     
             animator.SetBool("Idle", false);
         }
-
-
-
     }
 }

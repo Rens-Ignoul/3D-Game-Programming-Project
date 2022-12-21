@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class collisionQuestion : MonoBehaviour
+public class CollisionQuestion : MonoBehaviour
 {
 
     public GameObject imageObject;
     public GameObject textObject;
-    public GameObject button1Object;
-    public GameObject button2Object;
+    public GameObject firstButton;
+    public GameObject secondButton;
     private Rigidbody rigid;
     
 
@@ -25,8 +25,8 @@ public class collisionQuestion : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             imageObject.SetActive(true);
             textObject.SetActive(true);
-            button1Object.SetActive(true);
-            button2Object.SetActive(true);
+            firstButton.SetActive(true);
+            secondButton.SetActive(true);
 
             rigid.constraints = RigidbodyConstraints.FreezeAll;
         }
@@ -39,8 +39,8 @@ public class collisionQuestion : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             imageObject.SetActive(false);
             textObject.SetActive(false);
-            button1Object.SetActive(false);
-            button2Object.SetActive(false);
+            firstButton.SetActive(false);
+            secondButton.SetActive(false);
             
         }
     }

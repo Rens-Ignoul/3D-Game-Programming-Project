@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
+    //Bron: YouTube basic movement
     public Transform target;
-    private float moveSpeed = 6;
-    private float jumpForce = 2;
-    private float playerHeight =6;
+    private float moveSpeed = 6f;
+    private float jumpForce = 3f;
+    private float playerHeight =6f;
     public LayerMask jumpOnWhat;
     bool standing;
     public Transform orientation;
