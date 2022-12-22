@@ -29,6 +29,23 @@ public class Timer : MonoBehaviour
         float minutes = Mathf.FloorToInt(timeToShow / 60);
         float seconds = Mathf.FloorToInt(timeToShow % 60);
         countdownText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        countdownText.color = Color.green;
+        if (minutes < 1)
+        {
+            countdownText.color = Color.red;
+            if (seconds % 2 == 0)
+            {
+                countdownText.color = Color.red;
+            }
+            else
+            {
+                countdownText.color = Color.white;
+            }
+        }
+        else
+        {
+            countdownText.color = Color.green;
+        }
     }
 
     public void IncreaseTime()
