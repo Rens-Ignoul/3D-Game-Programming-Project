@@ -11,12 +11,12 @@ public class ScoreManager : MonoBehaviour
     public void Start()
     {
         showText.text = "Score: " + amount.ToString();
-        Debug.Log("Score is affected in ScoreManager!");
+      
     }
     public void Collision()
     {
         amount += 50;
         showText.text = "Score: " + amount.ToString();
-        Debug.Log("Score is affected in ScoreManager!");
+       
     }
 }

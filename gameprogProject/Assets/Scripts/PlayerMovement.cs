@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    //Bron: YouTube basic movement
+    //Bron: https://www.youtube.com/watch?v=f473C43s8nE
     public Transform target;
     private float moveSpeed = 6f;
     private float jumpForce = 3f;
