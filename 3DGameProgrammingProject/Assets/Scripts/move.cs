@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class move : MonoBehaviour
 {
     public float speed = 75f;
     private bool forward;
     private int score = 0;
+    public TMP_Text scoreText;
+    public TMP_Text GameOverScoreText;
     void Start()
     {
         gameObject.GetComponent<Rigidbody>().freezeRotation = true;
@@ -50,7 +54,8 @@ public class move : MonoBehaviour
         {
             Destroy(collision.gameObject);
             score++;
-            print(score);
+            scoreText.text = score.ToString();
+            GameOverScoreText.text = "Final Score: " + score.ToString();
         }
     }
 }
