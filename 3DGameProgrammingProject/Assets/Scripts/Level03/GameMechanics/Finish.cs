@@ -8,11 +8,17 @@ using UnityEngine.UI;
 public class Finish : MonoBehaviour
 {
 
+    public GameObject CanvasObject;
+    public TextMeshProUGUI ScoreText;
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
-        {
-            SceneManager.LoadScene(4, LoadSceneMode.Single);
-        }
+        Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.None;
+        CanvasObject.SetActive(true);
+        ScoreText.text = $"You got {ScoreManager.amount} points!";
+    }
+    public void ContinueButton()
+    {
+        SceneManager.LoadScene(4, LoadSceneMode.Single);
     }
 }
