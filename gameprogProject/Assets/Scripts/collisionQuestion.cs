@@ -14,8 +14,8 @@ public class CollisionQuestion : MonoBehaviour
 
     void Start()
     {
-
         Cursor.lockState = CursorLockMode.Locked;
+        rigid = GetComponent<Rigidbody>();
     }
 
     void OnTriggerEnter(Collider other)
@@ -23,12 +23,12 @@ public class CollisionQuestion : MonoBehaviour
         if (other.tag == "Player")
         {
             Cursor.lockState = CursorLockMode.None;
-            imageObject.SetActive(true);
-            textObject.SetActive(true);
-            firstButton.SetActive(true);
-            secondButton.SetActive(true);
+            if (imageObject != null) imageObject.SetActive(true);
+            if (textObject != null) textObject.SetActive(true);
+            if (firstButton != null) firstButton.SetActive(true);
+            if (secondButton != null) secondButton.SetActive(true); //controleren op null zorgt ervoor dat public variables dat bij sommige objects niet gebruikt wordt, geen error geeft.
 
-            rigid.constraints = RigidbodyConstraints.FreezeAll;
+            if (rigid != null) rigid.constraints = RigidbodyConstraints.FreezeAll;
         }
     }
 
@@ -37,11 +37,11 @@ public class CollisionQuestion : MonoBehaviour
         if (other.tag == "Player")
         {
             Cursor.lockState = CursorLockMode.Locked;
-            imageObject.SetActive(false);
-            textObject.SetActive(false);
-            firstButton.SetActive(false);
-            secondButton.SetActive(false);
-            
+            if (imageObject != null) imageObject.SetActive(false);
+            if (textObject != null) textObject.SetActive(false);
+            if (firstButton != null) firstButton.SetActive(false);
+            if (secondButton != null) secondButton.SetActive(false);
+
         }
     }
   

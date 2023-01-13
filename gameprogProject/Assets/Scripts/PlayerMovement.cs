@@ -6,9 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
 
     //Bron: https://www.youtube.com/watch?v=f473C43s8nE
-    public Transform target;
-    private float moveSpeed = 6f;
-    private float jumpForce = 3f;
+    private float moveSpeed = 10f;
+    private float jumpForce = 3.2f;
     private float playerHeight =6f;
     public LayerMask jumpOnWhat;
     bool standing;
@@ -30,9 +29,6 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
-       
-        float y = target.eulerAngles.y;
-        transform.rotation = Quaternion.Euler(0, y, 0); //draait lichaam waarnaar hij kijkt
         standing = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, jumpOnWhat);
         MyInput();
         Speed();

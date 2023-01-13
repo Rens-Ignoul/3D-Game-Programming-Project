@@ -21,7 +21,8 @@ public class ButtonBehaviour : MonoBehaviour
     {
         score = GetComponent<ScoreManager>();
         timer = GetComponent<Timer>();
-        
+        rigid = GetComponent<Rigidbody>();
+
     }
     void Update()
     {
@@ -49,10 +50,10 @@ public class ButtonBehaviour : MonoBehaviour
 
     IEnumerator DeleteQuestionAndImage()
     {
-        yield return new WaitForSeconds(2.0f);
-        Destroy(questionObject);
-        imageObject.SetActive(false);
-        rigid.constraints &= ~RigidbodyConstraints.FreezePosition;
+        yield return new WaitForSeconds(2.0f);//controleren op null zorgt ervoor dat public variables dat bij sommige objects niet gebruikt wordt, geen error geeft. In dit geval maken de errors niet uit.
+        if (questionObject != null) Destroy(questionObject);
+        if (imageObject != null) imageObject.SetActive(false);
+        if (rigid != null) rigid.constraints &= ~RigidbodyConstraints.FreezePosition;
     }
 }
 

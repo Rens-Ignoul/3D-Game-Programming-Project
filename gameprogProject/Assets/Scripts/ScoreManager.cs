@@ -8,15 +8,18 @@ public class ScoreManager : MonoBehaviour
 {
     public TextMeshProUGUI showText;
     public static int amount;
-    public void Start()
+
+    private void Start()
     {
-        showText.text = "Score: " + amount.ToString();
-      
+        UpdateScore();
     }
     public void Collision()
     {
         amount += 50;
+        UpdateScore();
+    }
+    private void UpdateScore()
+    {
         showText.text = "Score: " + amount.ToString();
-       
     }
 }
