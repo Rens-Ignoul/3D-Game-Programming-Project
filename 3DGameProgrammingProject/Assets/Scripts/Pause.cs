@@ -11,7 +11,7 @@ public class Pause : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            Application.Quit();
+            //Application.Quit();
             Cursor.lockState = CursorLockMode.None;
             Time.timeScale = 0f;
             canvasObject.SetActive(true);
