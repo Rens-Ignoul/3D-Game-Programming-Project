@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class PlayAgainButton : MonoBehaviour
+public class PlayAgainButton4 : MonoBehaviour
 {
     public Button playAgainButton;
 

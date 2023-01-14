@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BrakeOnNoInput : MonoBehaviour
+public class BrakeOnNoInput4 : MonoBehaviour
 {
     public float brakingForce = 10f;
 

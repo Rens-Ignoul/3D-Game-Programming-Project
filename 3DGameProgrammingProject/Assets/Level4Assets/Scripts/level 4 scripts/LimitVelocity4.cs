@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LimitVelocity : MonoBehaviour
+public class LimitVelocity4 : MonoBehaviour
 {
     public float maxVelocity = 10f;
 

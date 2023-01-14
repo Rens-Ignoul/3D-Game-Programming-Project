@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class NextLevelButton : MonoBehaviour
+public class NextLevelButton4 : MonoBehaviour
 {
     public Button nextLevelButton;
 
