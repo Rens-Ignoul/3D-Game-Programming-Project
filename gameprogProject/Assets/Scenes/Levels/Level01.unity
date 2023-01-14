@@ -465,7 +465,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: RETURN
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b53636f49838fc04fb242a1d360c47b2, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -529,7 +529,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &23687162
@@ -4874,7 +4874,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: QUIT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b53636f49838fc04fb242a1d360c47b2, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4938,7 +4938,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &625106282
@@ -7906,7 +7906,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a5e5fdb76ee0146a108177b3ffa737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrong: {fileID: 703964856}
   correct: {fileID: 40048868}
   textMeshPro: {fileID: 240353448}
   scoreChange: {fileID: 599227407}
@@ -8442,7 +8441,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: PAUSED
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b53636f49838fc04fb242a1d360c47b2, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8506,7 +8505,7 @@ MonoBehaviour:
   m_margin: {x: -1.2270851, y: 3.1670475, z: -1.607548, w: 3.356433}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1230001244
@@ -10436,7 +10435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a5e5fdb76ee0146a108177b3ffa737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrong: {fileID: 703964856}
   correct: {fileID: 40048868}
   textMeshPro: {fileID: 615467345}
   scoreChange: {fileID: 599227407}
@@ -11608,7 +11606,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a5e5fdb76ee0146a108177b3ffa737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrong: {fileID: 703964856}
   correct: {fileID: 40048868}
   textMeshPro: {fileID: 962098486}
   scoreChange: {fileID: 599227407}
@@ -12052,7 +12049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a5e5fdb76ee0146a108177b3ffa737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrong: {fileID: 703964856}
   correct: {fileID: 40048868}
   textMeshPro: {fileID: 962098486}
   scoreChange: {fileID: 599227407}
@@ -13432,7 +13428,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a5e5fdb76ee0146a108177b3ffa737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrong: {fileID: 703964856}
   correct: {fileID: 40048868}
   textMeshPro: {fileID: 615467345}
   scoreChange: {fileID: 599227407}
@@ -14868,7 +14863,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a5e5fdb76ee0146a108177b3ffa737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrong: {fileID: 703964856}
   correct: {fileID: 40048868}
   textMeshPro: {fileID: 1711787038}
   scoreChange: {fileID: 599227407}
@@ -15133,7 +15127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a5e5fdb76ee0146a108177b3ffa737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrong: {fileID: 703964856}
   correct: {fileID: 40048868}
   textMeshPro: {fileID: 1711787038}
   scoreChange: {fileID: 599227407}
@@ -15729,7 +15722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35a5e5fdb76ee0146a108177b3ffa737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wrong: {fileID: 703964856}
   correct: {fileID: 40048868}
   textMeshPro: {fileID: 240353448}
   scoreChange: {fileID: 599227407}

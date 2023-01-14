@@ -7,7 +7,7 @@ using TMPro;
 
 public class ButtonBehaviour : MonoBehaviour
 {
-    public AudioSource wrong;
+    
     public AudioSource correct;
     public TMP_Text textMeshPro;
     public TMP_Text scoreChange;
@@ -32,7 +32,6 @@ public class ButtonBehaviour : MonoBehaviour
     public void WrongAnswer()
     {
         Cursor.lockState = CursorLockMode.Locked;
-        wrong.Play();
         textMeshPro.text = "Wrong answer!";
         timer.DecreaseTime();
         StartCoroutine(DeleteQuestionAndImage());
