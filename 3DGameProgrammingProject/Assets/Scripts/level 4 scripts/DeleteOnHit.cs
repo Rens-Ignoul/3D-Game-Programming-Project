@@ -12,7 +12,7 @@ public class DeleteOnHit : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(soundToPlay.clip, transform.position);
             Destroy(gameObject);
-            
+            //test
         }
     }
 }
