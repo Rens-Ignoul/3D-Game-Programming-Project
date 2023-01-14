@@ -10,8 +10,9 @@ public class DeleteOnHit : MonoBehaviour
         // Check if the object that collided with this object has a tag of "Delete"
         if (collision.collider.tag == "Delete")
         {
-            
+            AudioSource.PlayClipAtPoint(soundToPlay.clip, transform.position);
             Destroy(gameObject);
+            
         }
     }
 }
