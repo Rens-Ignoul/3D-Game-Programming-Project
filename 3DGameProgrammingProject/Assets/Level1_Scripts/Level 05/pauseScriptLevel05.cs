@@ -12,7 +12,6 @@ public class pauseScriptLevel05 : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            Application.Quit();
             Cursor.lockState = CursorLockMode.None;
             Time.timeScale = 0f;
             canvasObject.enabled = true;
