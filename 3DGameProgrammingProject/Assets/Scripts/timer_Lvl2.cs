@@ -2,11 +2,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class timer : MonoBehaviour
 {
-    bool timerOn = true;
-    float currentTime;
+    public bool timerOn = true;
+   public float currentTime;
     public float startTime;
     public TMP_Text timerText;
     public Gameover gameoverScreen;
@@ -35,12 +36,10 @@ public class timer : MonoBehaviour
     public void GameOver()
     {
         gameoverScreen.Setup();
+        //System.Threading.Thread.Sleep(10000);
+        //SceneManager.LoadScene(0);
     }
     
     
-    public void Restart()
-    {
-        print("restarted");
-        gameoverScreen.Restart();
-    }
+   
 }
