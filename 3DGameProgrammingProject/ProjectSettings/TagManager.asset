@@ -4,17 +4,24 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Slider
+  - InteractCanvas
+  - rangeSphere
+  - resumeButton
+  - Obstacle
+  - ResetWall
+  tags:
   - wall
   - trash
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 'on screen text '
+  - 
   - Water
   - UI
   - 
-  - 
+  - whatIsGround
   - 
   - 
   - 
