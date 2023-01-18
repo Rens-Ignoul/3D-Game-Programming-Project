@@ -10,10 +10,9 @@ TagManager:
   - resumeButton
   - Obstacle
   - ResetWall
-  tags:
+  - Delete
   - wall
   - trash
-  tags: []
   layers:
   - Default
   - TransparentFX

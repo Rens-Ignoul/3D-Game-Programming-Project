@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace UnityStandardAssets.SceneUtils
 {
-    public class PlaceTargetWithMouse : MonoBehaviour
+    public class PlaceTargetWithMouse_1 : MonoBehaviour
     {
         public float surfaceOffset = 1.5f;
         public GameObject setTargetOn;

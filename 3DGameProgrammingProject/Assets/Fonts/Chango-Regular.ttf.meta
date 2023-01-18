@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: f370c6c63b685ee4498b317f756d425a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Chango
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c98fd04bf5ca31842a5eca09fc93038a, type: 3}
+  - {fileID: 12800000, guid: 93ac96e56f27d03479359dcc58cd04d1, type: 3}
+  - {fileID: 12800000, guid: 6ab88695e4597c345a1e1111b3256f7f, type: 3}
+  - {fileID: 12800000, guid: 50551a128211512429e5dd4226b23b21, type: 3}
+  - {fileID: 12800000, guid: 0b0be6ebb3cb41c40bd1543708778a58, type: 3}
+  - {fileID: 12800000, guid: a93c8966e3ddbe14994295f37b8bbb66, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
