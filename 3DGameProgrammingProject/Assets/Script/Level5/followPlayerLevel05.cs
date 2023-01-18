@@ -21,7 +21,7 @@ public class followPlayerLevel05 : MonoBehaviour
     public int subtractedTime = 2;
     public float rotationSpeed = 5.0f;
 
-    public flashingLightLevel05 light;
+    //public flashingLightLevel05 light;
 
     private void Start()
     {
@@ -39,7 +39,7 @@ public class followPlayerLevel05 : MonoBehaviour
 
         if (inRange)
         {
-            light.useLight(true);
+            //light.useLight(true);
             targetPosition = player.transform.position;
             Debug.Log($"In Range => Distance: {distance}");
             if (distance < 2)
@@ -59,7 +59,7 @@ public class followPlayerLevel05 : MonoBehaviour
         else
         {
 
-            light.useLight(false);
+            //light.useLight(false);
             if ( transform.position == targetPosition || beenInRange || Time.time - lastTimerUpdate>=2f )
             {
                 targetPosition = startLevel05.getRandomPosition();
