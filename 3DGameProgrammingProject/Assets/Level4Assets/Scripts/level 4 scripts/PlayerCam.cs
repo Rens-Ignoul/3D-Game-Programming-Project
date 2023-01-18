@@ -2,11 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-<<<<<<< Updated upstream:3DGameProgrammingProject/Assets/Level4Assets/Scripts/level 4 scripts/PlayerCam4.cs
-public class PlayerCam4 : MonoBehaviour
-=======
 public class PlayerCam : MonoBehaviour
->>>>>>> Stashed changes:3DGameProgrammingProject/Assets/Level4Assets/Scripts/level 4 scripts/PlayerCam.cs
 {
     public float sensX;
     public float sensY;

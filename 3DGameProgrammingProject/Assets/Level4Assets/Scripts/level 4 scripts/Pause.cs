@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Pause4 : MonoBehaviour
+public class Pause : MonoBehaviour
 {
     public GameObject canvasObject;
+    public Button unPause;
 
 
     void Update()
@@ -18,6 +19,7 @@ public class Pause4 : MonoBehaviour
             canvasObject.SetActive(true);
             
         }
+        unPause.onClick.AddListener(ReturnButton);
 
     }
 
