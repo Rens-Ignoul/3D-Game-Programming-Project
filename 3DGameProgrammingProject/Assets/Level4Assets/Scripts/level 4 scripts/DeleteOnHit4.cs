@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DeleteOnHit : MonoBehaviour
+public class DeleteOnHit4 : MonoBehaviour
 {
     public AudioSource soundToPlay;
     void OnCollisionEnter(Collision collision)

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RandomSpawner : MonoBehaviour
+public class RandomSpawner4 : MonoBehaviour
 {
     // The prefab that will be spawned
     public GameObject prefab;

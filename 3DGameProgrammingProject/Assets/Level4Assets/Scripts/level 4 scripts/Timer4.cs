@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Timer : MonoBehaviour
+public class Timer4 : MonoBehaviour
 {
     public float timeRemaining = 10;
     public bool timerIsRunning = false;

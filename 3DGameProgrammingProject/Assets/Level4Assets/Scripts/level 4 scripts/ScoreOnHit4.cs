@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScoreOnHit : MonoBehaviour
+public class ScoreOnHit4 : MonoBehaviour
 {
     public int pointsToAdd;
 
     public void AddPoints(int points)
     {
-        var scoreManager = FindObjectOfType<ScoreManager>();
+        var scoreManager = FindObjectOfType<ScoreManager4>();
         scoreManager.score += points;
     }
 

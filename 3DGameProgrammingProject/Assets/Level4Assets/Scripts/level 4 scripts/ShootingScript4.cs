@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShootingScript : MonoBehaviour
+public class ShootingScript4 : MonoBehaviour
 {
     public GameObject projectilePrefab; // The prefab for the projectile
     public float projectileForce = 10f; // The force with which the projectile will be shot
