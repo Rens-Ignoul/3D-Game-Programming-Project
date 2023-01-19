@@ -19,6 +19,7 @@ public class Finish_lvl3 : MonoBehaviour
     }
     public void ContinueButton()
     {
-        SceneManager.LoadScene(4, LoadSceneMode.Single);
+        
+        SceneManager.LoadScene(4);
     }
 }

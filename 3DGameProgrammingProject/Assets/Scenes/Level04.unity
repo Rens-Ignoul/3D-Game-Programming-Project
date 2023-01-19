@@ -2563,7 +2563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56ea958d39221b543a00cf395094c72e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 5
+  timeRemaining: 60
   timerIsRunning: 0
   timeText: {fileID: 450700346}
   canvasObject: {fileID: 437842009}
@@ -6395,7 +6395,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 235191647}
         m_TargetAssemblyTypeName: Pause_lvl3, Assembly-CSharp
-        m_MethodName: MainMenuButton
+        m_MethodName: ReturnButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6914,7 +6914,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 235191647}
         m_TargetAssemblyTypeName: Pause_lvl3, Assembly-CSharp
-        m_MethodName: ReturnButton
+        m_MethodName: MainMenuButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
