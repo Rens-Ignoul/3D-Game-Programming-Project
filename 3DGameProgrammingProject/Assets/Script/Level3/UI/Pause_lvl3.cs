@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Pause_lvl3 : MonoBehaviour
@@ -22,7 +23,12 @@ public class Pause_lvl3 : MonoBehaviour
         Time.timeScale = 1.0f;
         canvasObject.SetActive(false);
     }
-
+    public void MainMenuButton()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
+    }
     public void QuitButton()
     {
         Application.Quit();
